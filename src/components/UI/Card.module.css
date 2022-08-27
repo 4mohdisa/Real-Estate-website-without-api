@@ -1,0 +1,95 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bgColorSecondary);
+    border-radius: 1em;
+    max-width: 20em;
+    transition: box-shadow 150ms linear, 
+                transform 150ms linear;
+}
+
+.cardContainer:hover {
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+
+.cardContainer > img {
+    border-radius: 1em 1em 0 0;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.dataContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    gap: 1em;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.flexContainer:last-child {
+    border-top: 1px solid var(--borderColor);
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexColumn > h2 {
+    font-size: 1.5em;
+    color: var(--fontColorPrimary);
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.25em;
+}
+
+.flexRow > h2 {
+    font-size: 1.5em;
+    color: var(--highlightColor);
+}
+.flexRow > p {
+    color: var(--fontColorSecondary);
+}
+
+.favouriteIcon {
+    width: 3em;
+    height: 3em;
+    padding: 0.8em;
+    border: 1px solid var(--borderColor);
+    border-radius: 50%;
+    color: var(--highlightColor);
+}
+
+.favouriteIcon:hover {
+
+    background-color: var(--highlightColor2);
+}
+
+.smallIcons {
+    width: 1em;
+    height: 1em;
+    color: var(--highlightColor);
+}
+
+
+.addressContainer {
+    flex: 1;
+    color: var(--fontColorSecondary);
+    font-size: 1.1em;
+}
+
+
+

@@ -1,0 +1,91 @@
+.flexContainer {
+    width: 100%;
+    background-color: var(--bgColorSecondary);
+    border-radius: 1em;
+    padding: 2em;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    
+    animation-name: swipe-down;
+    animation-duration: 150ms;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+.sectionContainer {
+    padding-inline: 1em;
+    border-left: 1px solid var(--borderColor);
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    flex-grow: 1;
+
+}
+.sectionContainer:first-child {
+    border: none;
+}
+
+.sectionContainer > label {
+    color: var(--fontColorSecondary);
+    font-weight: bold;
+}
+
+.sectionContainer > select {
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: var(--bgColorSecondary);
+    color: var(--fontColorPrimary);
+}
+
+.sectionContainer > select > option{
+    background-color: var(--bgColorSecondary);
+    color: var(--fontColorPrimary);
+    font-size: 0.9em;
+}
+
+.sectionContainer > input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--fontColorPrimary);
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.sectionContainer > span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionContainer > span > h2 {
+    font-size: 1.3em;
+}
+
+
+.iconStyle {
+    background-color: var(--highlightColor2);
+    color: var(--highlightColor);
+    border-radius: 50%;
+    width: 1em;
+    height: 1em;
+}
+
+@keyframes swipe-down {
+    0% {
+        transform: translateY(-2em);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0em);
+        opacity: 1;
+    }
+}

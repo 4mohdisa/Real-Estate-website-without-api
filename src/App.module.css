@@ -1,0 +1,54 @@
+/* light theme palette */
+.app[data-theme = 'light'] {
+  --bgColorPrimary: #f8f7fd;
+  --bgColorSecondary: white;
+  --highlightColor: #6d6ce5;
+  --highlightColor2: #e9e7f4;
+  --fontColorPrimary: black;
+  --fontColorSecondary: #808080;
+  --fontColorWhite: white;
+  --borderColor: #dcd8e9;
+}
+
+
+/* dark theme palette */
+.app[data-theme = 'dark'] {
+  --bgColorPrimary: #121212;
+  --bgColorSecondary: #1f1f1f;
+  --highlightColor: #6d6ce5;
+  --highlightColor2: #1b1b25;
+  --fontColorPrimary: rgb(222, 216, 228);
+  --fontColorSecondary: #c5bed3;
+  --fontColorWhite: white;
+  --borderColor: #2e2c33;
+}
+
+.app {
+  background-color: var(--bgColorPrimary);
+  color: var(--fontColorPrimary);
+
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100%;
+
+  display: grid;
+  grid-template-rows: 5em 1fr 5em;
+}
+
+.positionFixed {
+  position: fixed;
+  width: 3em;
+  height: 3em;
+  border-radius: 50% 0 0 50%;
+  background-color: var(--highlightColor);
+  color: var(--fontColorPrimary);
+
+  top:40%;
+  right:-0.1%;
+  z-index: 10;
+  transition: transform 150ms ease;
+}
+
+.positionFixed:hover {
+  transform: translateX(-2px);
+}

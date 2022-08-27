@@ -1,0 +1,9 @@
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20em);
+    grid-auto-rows: auto;
+    justify-items: center;
+    place-content: center;
+    gap: 2em;
+}

@@ -1,0 +1,86 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0 3vw;
+  gap: 1em;
+  align-items: center;
+  border-bottom: 1px solid var(--borderColor);
+}
+
+.logo {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo > h1 {
+  color: #574c8a;
+  margin-left: 0.25em;
+  font-size: 1.25em;
+}
+
+.icon {
+  width: 1.5em;
+  color: var(--highlightColor);
+}
+
+.navbar {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.propertyOptions {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  max-width: 25em;
+  justify-content: space-around;
+}
+
+.propertyOptions > * {
+  text-decoration: none;
+  color: var(--fontColorPrimary);
+  border: none;
+
+  font-weight: bold;
+  background-color: transparent;
+  border-radius: 0.5em;
+  padding: 0.8em 1.2em;
+  transition: background-color 150ms linear;
+}
+.propertyOptions > *:hover {
+    color: var(--highlightColor);
+}
+
+
+.loginButtons {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1em;
+}
+
+.hamburgerMenu {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .propertyOptions,
+  .loginButtons {
+    display: none;
+  }
+  .navbar {
+    justify-content: flex-end;
+    z-index: 10;
+  }
+  .hamburgerMenu {
+    display: inline;
+  }
+}
