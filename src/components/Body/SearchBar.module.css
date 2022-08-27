@@ -51,10 +51,10 @@
 }
 
 .sectionContainer > input {
-    background-color: transparent;
+    background-color: var(--bgColorSecondary);
+    color: var(--fontColorPrimary);
     border: none;
     outline: none;
-    color: var(--fontColorPrimary);
     font-size: 1.3em;
     font-weight: bold;
 }

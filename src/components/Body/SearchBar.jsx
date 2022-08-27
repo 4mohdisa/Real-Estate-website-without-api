@@ -16,12 +16,12 @@ function SearchBar() {
   const submitFilterHandler = () => {
     setFilter({
       city: city,
-      date: date,
+      date: date !== '' ? date: '01-01-1999',
       price: {
         lowerLim: +price,
         upperLim: +price === 15000 ? 999999 : 5000 + +price,
       },
-      houses: houses,
+      houseType: houses,
     });
   };
 
@@ -34,7 +34,6 @@ function SearchBar() {
       <section className={classes.sectionContainer}>
         <label>Location</label>
         <select onChange={(e) => setCity(e.target.value)}>
-          <option value="all">India, all city</option>
           <option value="Pune"> India, Pune</option>
           <option value="Bengaluru"> India, Bengaluru</option>
           <option value="Siliguri"> India, Siliguri</option>

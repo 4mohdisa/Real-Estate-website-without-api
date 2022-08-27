@@ -35,7 +35,7 @@ function Card({ data }) {
   return (
     <div className={styles.cardContainer}>
       <img src={data.image} alt="" />
-
+      <div className={styles.absolute}>{data.houseType}</div>
       <div className={styles.dataContainer}>
         {/* 1st box */}
         <section className={styles.flexContainer}>

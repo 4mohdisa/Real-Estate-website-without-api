@@ -1,4 +1,5 @@
 .cardContainer {
+    position: relative;
     display: flex;
     flex-direction: column;
     background-color: var(--bgColorSecondary);
@@ -16,8 +17,26 @@
 
 .cardContainer > img {
     border-radius: 1em 1em 0 0;
-    object-fit: contain;
     overflow: hidden;
+    min-height: 45%;
+    object-fit: cover;
+    flex: auto;
+}
+
+.absolute {
+    position: absolute;
+    background-color: var(--highlightColor2);
+    font-size: 1em;
+    text-transform: capitalize;
+    padding: 0.2em 1em;
+    border-radius: 1em;
+    border:1px solid var(--borderColor);
+    color: var(--highlightColor);
+
+    top: 44%;
+    right: 4%;
+
+    user-select: none;
 }
 
 .dataContainer {

@@ -14,7 +14,7 @@ export const rentData = [
         city: 'Bengaluru',
         country: 'INDIA',
         favourites: [],
-        availablity: '22-06-2022',
+        availablity: '01-12-2022',
         houseType: 'flat'
     },
     {
@@ -31,14 +31,14 @@ export const rentData = [
         city: 'Mumbai',
         country: 'INDIA',
         favourites: [],
-        availablity: '22-06-2022',
+        availablity: '01-09-2022',
         houseType: 'flat'
     },
     {
         id: 3,
         name: 'Brīsta',
         price: '14999',
-        image: 'https://img.squareyards.com/secondaryPortal/637952424621949981-040822084102412.jpg',
+        image: 'https://images.timesproperty.com/blog/2090/unnamed_86.jpg',
         specification: {
             bed: 2,
             bathrooms: 1,
@@ -48,14 +48,14 @@ export const rentData = [
         city: 'Siliguri',
         country: 'INDIA',
         favourites: [],
-        availablity: '22-06-2022',
+        availablity: '01-01-2023',
         houseType: 'house'
     },
     {
         id: 7,
         name: 'Himalaya Kanya',
         price: '8500',
-        image: 'https://img.squareyards.com/secondaryPortal/637952424621949981-040822084102412.jpg',
+        image: 'https://static.asianpaints.com/content/dam/beautifulhomes/images/living/homes/jasleen-singhs-1000-sqft-contemporary-indian-apartment-in-new-delhi/OYS_7252-2.jpg',
         specification: {
             bed: 2,
             bathrooms: 2,
@@ -65,14 +65,14 @@ export const rentData = [
         city: 'Siliguri',
         country: 'INDIA',
         favourites: [],
-        availablity: '22-06-2022',
+        availablity: '01-10-2022',
         houseType: 'flat'
     },
     {
         id: 6,
         name: 'S. Ram',
         price: '25000',
-        image: 'https://img.squareyards.com/secondaryPortal/637952424621949981-040822084102412.jpg',
+        image: 'https://assets.architecturaldigest.in/photos/61de9b8d0f339dca4bd2963f/16:9/w_2560%2Cc_limit/Manipal%2520home.jpg',
         specification: {
             bed: 3,
             bathrooms: 2,
@@ -89,7 +89,7 @@ export const rentData = [
         id: 8,
         name: 'Xavier Heights',
         price: '80000',
-        image: 'https://img.squareyards.com/secondaryPortal/637952424621949981-040822084102412.jpg',
+        image: 'https://maxhouzez.com/id/wp-content/uploads/sites/5/2021/10/1634703774_maxresdefault.jpg',
         specification: {
             bed: 1,
             bathrooms: 1,
@@ -99,14 +99,14 @@ export const rentData = [
         city: 'Mumbai',
         country: 'INDIA',
         favourites: [],
-        availablity: '22-06-2022',
+        availablity: '01-11-2022',
         houseType: 'flat'
     },
     {
         id: 4,
         name: 'Tānkā',
         price: '3500',
-        image: 'https://img.squareyards.com/secondaryPortal/637952424621949981-040822084102412.jpg',
+        image: 'https://psgroup.in/blog/wp-content/uploads/2020/11/luxury-flats-in-kolkata.jpeg',
         specification: {
             bed: 1,
             bathrooms: 1,
@@ -116,14 +116,14 @@ export const rentData = [
         city: 'Pune',
         country: 'INDIA',
         favourites: [],
-        availablity: '22-06-2022',
+        availablity: '02-11-2022',
         houseType: 'flat'
     },
     {
         id: 5,
         name: 'Maitri',
         price: '13000',
-        image: 'https://img.squareyards.com/secondaryPortal/637952424621949981-040822084102412.jpg',
+        image: 'https://thearchitectsdiary.com/wp-content/uploads/2017/12/3-room-flat-interior-design_Livingroom.jpg',
         specification: {
             bed: 3,
             bathrooms: 2,
@@ -133,7 +133,7 @@ export const rentData = [
         city: 'Pune',
         country: 'INDIA',
         favourites: [],
-        availablity: '22-06-2022',
+        availablity: '01-10-2022',
         houseType: 'house'
     },
    

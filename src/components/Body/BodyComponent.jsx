@@ -9,9 +9,17 @@ import { isEmpty } from "../../utility/checkingFunctions";
 function BodyComponent() {
   const { properties, filter } = useContext(EstateContext);
 
-
-
-  const filteredProperties = isEmpty(filter) === true ? properties : properties.filter(property => property.city === filter.city);
+  const filteredProperties =
+    isEmpty(filter) === true
+      ? properties
+      : properties.filter(
+          (property) =>
+            property.city === filter.city &&
+            +property.price >= filter.price.lowerLim &&
+            +property.price <= filter.price.upperLim &&
+            property.houseType.toLowerCase() === filter.houseType.toLowerCase() &&
+            property.availablity <= filter.date
+        );
 
   return (
     <div className={classes.mainBodyContainer}>
