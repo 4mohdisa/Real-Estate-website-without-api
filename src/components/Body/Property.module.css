@@ -1,0 +1,95 @@
+
+.image{
+    border-radius: 1em 1em 0 0;
+    overflow: hidden;
+    min-height: 45%;
+    object-fit: cover;
+    flex: auto;
+}
+
+.absolute {
+    position: absolute;
+    background-color: var(--highlightColor2);
+    font-size: 1em;
+    text-transform: capitalize;
+    padding: 0.2em 1em;
+    border-radius: 1em;
+    border:1px solid var(--borderColor);
+    color: var(--highlightColor);
+
+    top: 44%;
+    right: 4%;
+
+    user-select: none;
+}
+
+.dataContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    gap: 1em;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.flexContainer:last-child {
+    border-top: 1px solid var(--borderColor);
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexColumn > h2 {
+    font-size: 1.5em;
+    color: var(--fontColorPrimary);
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.25em;
+}
+
+.flexRow > h2 {
+    font-size: 1.5em;
+    color: var(--highlightColor);
+}
+.flexRow > p {
+    color: var(--fontColorSecondary);
+}
+
+.favouriteIcon {
+    width: 3em;
+    height: 3em;
+    padding: 0.8em;
+    border: 1px solid var(--borderColor);
+    border-radius: 50%;
+    color: var(--highlightColor);
+}
+
+.favouriteIcon:hover {
+
+    background-color: var(--highlightColor2);
+}
+
+.smallIcons {
+    width: 1em;
+    height: 1em;
+    color: var(--highlightColor);
+}
+
+
+.addressContainer {
+    flex: 1;
+    color: var(--fontColorSecondary);
+    font-size: 1.1em;
+}

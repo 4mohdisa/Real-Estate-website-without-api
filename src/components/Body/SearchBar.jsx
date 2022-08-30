@@ -8,15 +8,15 @@ import { isEmpty } from "../../utility/checkingFunctions";
 
 function SearchBar() {
   const { setFilter, filter } = useContext(EstateContext);
-  const [city, setCity] = useState();
-  const [date, setDate] = useState();
-  const [price, setPrice] = useState();
-  const [houses, setHouses] = useState();
+  const [city, setCity] = useState('Pune');
+  const [date, setDate] = useState('2099-12-12');
+  const [price, setPrice] = useState(5000);
+  const [houses, setHouses] = useState('Houses');
 
   const submitFilterHandler = () => {
     setFilter({
       city: city,
-      date: date !== '' ? date: '01-01-1999',
+      date: date,
       price: {
         lowerLim: +price,
         upperLim: +price === 15000 ? 999999 : 5000 + +price,
@@ -33,7 +33,7 @@ function SearchBar() {
     <div className={classes.flexContainer}>
       <section className={classes.sectionContainer}>
         <label>Location</label>
-        <select onChange={(e) => setCity(e.target.value)}>
+        <select value={city} onChange={(e) => setCity(e.target.value)}>
           <option value="Pune"> India, Pune</option>
           <option value="Bengaluru"> India, Bengaluru</option>
           <option value="Siliguri"> India, Siliguri</option>

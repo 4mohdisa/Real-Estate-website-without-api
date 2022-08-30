@@ -1,11 +1,21 @@
 .mainBodyContainer {
-    height: 100%;
-    width: 90%;
-    margin-inline: auto;
-    padding: 3em 0;
+  height: 100%;
+  width: 90%;
+  margin-inline: auto;
+  padding: 3em 0;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    gap: 2em;
+  gap: 2em;
+}
+
+.entireDisplayText {
+  display: inline-flex;
+  font-size: 3em;
+  height: 90%;
+  color: var(--borderColor);
+  user-select: none;
+  place-self: center;
+  align-items: center;
 }

@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useState } from "react";
 import { EstateContext } from "../../context/estate-context";
-import ShowcaseComponent from "./ShowcaseComponent";
 import { DUMMY_USER_ID as uid } from "../../utility/data";
 import classes from "./Favourites.module.css";
+import Properties from "./Properties";
 
 function Favourites() {
   const { properties } = useContext(EstateContext);
@@ -21,7 +21,7 @@ function Favourites() {
       ) : (
         <>
           <h1 className={classes.hHeader}>Your favourite properties</h1>
-          <ShowcaseComponent properties={favouriteProperties} />
+          <Properties properties={favouriteProperties} />
         </>
       )}
     </div>

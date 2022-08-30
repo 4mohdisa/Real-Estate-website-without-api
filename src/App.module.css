@@ -42,6 +42,7 @@
   border-radius: 50% 0 0 50%;
   background-color: var(--highlightColor);
   color: var(--fontColorPrimary);
+  padding: 0.5em;
 
   top:40%;
   right:-0.1%;

@@ -14,7 +14,7 @@ export const rentData = [
         city: 'Bengaluru',
         country: 'INDIA',
         favourites: [],
-        availablity: '01-12-2022',
+        availablity: '2022-12-01',
         houseType: 'flat'
     },
     {
@@ -31,7 +31,7 @@ export const rentData = [
         city: 'Mumbai',
         country: 'INDIA',
         favourites: [],
-        availablity: '01-09-2022',
+        availablity: '2022-09-01',
         houseType: 'flat'
     },
     {
@@ -48,7 +48,7 @@ export const rentData = [
         city: 'Siliguri',
         country: 'INDIA',
         favourites: [],
-        availablity: '01-01-2023',
+        availablity: '2023-01-01',
         houseType: 'house'
     },
     {
@@ -65,7 +65,7 @@ export const rentData = [
         city: 'Siliguri',
         country: 'INDIA',
         favourites: [],
-        availablity: '01-10-2022',
+        availablity: '2022-10-01',
         houseType: 'flat'
     },
     {
@@ -82,14 +82,14 @@ export const rentData = [
         city: 'Bengaluru',
         country: 'INDIA',
         favourites: [],
-        availablity: '22-06-2022',
+        availablity: '2022-06-22',
         houseType: 'bungalow'
     },
     {
         id: 8,
         name: 'Xavier Heights',
         price: '80000',
-        image: 'https://maxhouzez.com/id/wp-content/uploads/sites/5/2021/10/1634703774_maxresdefault.jpg',
+        image: 'https://i.ytimg.com/vi/eTt7AGIpV2I/maxresdefault.jpg',
         specification: {
             bed: 1,
             bathrooms: 1,
@@ -99,7 +99,7 @@ export const rentData = [
         city: 'Mumbai',
         country: 'INDIA',
         favourites: [],
-        availablity: '01-11-2022',
+        availablity: '2022-11-01',
         houseType: 'flat'
     },
     {
@@ -116,7 +116,7 @@ export const rentData = [
         city: 'Pune',
         country: 'INDIA',
         favourites: [],
-        availablity: '02-11-2022',
+        availablity: '2022-11-02',
         houseType: 'flat'
     },
     {
@@ -133,7 +133,7 @@ export const rentData = [
         city: 'Pune',
         country: 'INDIA',
         favourites: [],
-        availablity: '01-10-2022',
+        availablity: '2022-10-01',
         houseType: 'house'
     },
    
